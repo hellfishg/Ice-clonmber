@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/NES - Ice Climber - General Sprites.png-fa6fb83101b309db4b2518da063ba0a1.stex"
+path="res://.import/everything.png-25d33905d9e28ee19dad665743d3e521.stex"
 
 [deps]
 
-source_file="res://Assets/Images/Sprites/NES - Ice Climber - General Sprites.png"
-dest_files=[ "res://.import/NES - Ice Climber - General Sprites.png-fa6fb83101b309db4b2518da063ba0a1.stex" ]
+source_file="res://Assets/Images/Sprites/everything.png"
+dest_files=[ "res://.import/everything.png-25d33905d9e28ee19dad665743d3e521.stex" ]
 
 [params]
 
