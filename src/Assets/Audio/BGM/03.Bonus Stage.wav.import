@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/03.Bonus Stage.wav-8fc650ecb5235c2c5e9fa6255c7a5fa7.sample"
+
+[deps]
+
+source_file="res://Assets/Audio/BGM/03.Bonus Stage.wav"
+dest_files=[ "res://.import/03.Bonus Stage.wav-8fc650ecb5235c2c5e9fa6255c7a5fa7.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0
