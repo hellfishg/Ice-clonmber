@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/playerAttackUp.png-01d65eedc11739e526a5a0afe96e1aad.stex"
+path="res://.import/icon.jpg-4a7f64b346e42b67f360ae423f9eb5cc.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Images/BASURAPARATEST/playerAttackUp.png"
-dest_files=[ "res://.import/playerAttackUp.png-01d65eedc11739e526a5a0afe96e1aad.stex" ]
+source_file="res://icon.jpg"
+dest_files=[ "res://.import/icon.jpg-4a7f64b346e42b67f360ae423f9eb5cc.stex" ]
 
 [params]
 

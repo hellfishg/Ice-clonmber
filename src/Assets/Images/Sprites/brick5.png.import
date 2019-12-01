@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/playerAttackSide.png-a31b0797ca4a7afbd18aaaa709f8285d.stex"
+path="res://.import/brick5.png-d569e44912794d8546b1e5a52efd7cea.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Images/BASURAPARATEST/playerAttackSide.png"
-dest_files=[ "res://.import/playerAttackSide.png-a31b0797ca4a7afbd18aaaa709f8285d.stex" ]
+source_file="res://Assets/Images/Sprites/brick5.png"
+dest_files=[ "res://.import/brick5.png-d569e44912794d8546b1e5a52efd7cea.stex" ]
 
 [params]
 

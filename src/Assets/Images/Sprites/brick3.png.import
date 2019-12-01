@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/playerAttackDown.png-6a9f6e026288c00eb5cad9560f9c1b10.stex"
+path="res://.import/brick3.png-bb80977286e9ba08d7fb870bd8b809e7.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Images/BASURAPARATEST/playerAttackDown.png"
-dest_files=[ "res://.import/playerAttackDown.png-6a9f6e026288c00eb5cad9560f9c1b10.stex" ]
+source_file="res://Assets/Images/Sprites/brick3.png"
+dest_files=[ "res://.import/brick3.png-bb80977286e9ba08d7fb870bd8b809e7.stex" ]
 
 [params]
 

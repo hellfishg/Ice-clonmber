@@ -1,0 +1,105 @@
+[gd_scene load_steps=13 format=2]
+
+[ext_resource path="res://Assets/Images/Sprites/brick1.png" type="Texture" id=1]
+[ext_resource path="res://Assets/Images/Sprites/brick2.png" type="Texture" id=2]
+[ext_resource path="res://Assets/Images/Sprites/brick3.png" type="Texture" id=3]
+[ext_resource path="res://Assets/Images/Sprites/brick4.png" type="Texture" id=4]
+[ext_resource path="res://Assets/Images/Sprites/brick5.png" type="Texture" id=5]
+[ext_resource path="res://Assets/Images/Sprites/brick6.png" type="Texture" id=6]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 4, 4 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 4, 2 )
+
+[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 4, 4 )
+
+[sub_resource type="RectangleShape2D" id=4]
+extents = Vector2( 4, 2 )
+
+[sub_resource type="RectangleShape2D" id=5]
+extents = Vector2( 4, 4 )
+
+[sub_resource type="RectangleShape2D" id=6]
+extents = Vector2( 4, 2 )
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Green" type="Sprite" parent="."]
+position = Vector2( 4, 20 )
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Green"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Green/StaticBody2D"]
+shape = SubResource( 1 )
+
+[node name="GreenH" type="Sprite" parent="."]
+editor/display_folded = true
+position = Vector2( 20, 18 )
+texture = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="GreenH"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="GreenH/StaticBody2D"]
+shape = SubResource( 2 )
+
+[node name="Blue" type="Sprite" parent="."]
+editor/display_folded = true
+position = Vector2( 36, 4 )
+texture = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Blue"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Blue/StaticBody2D"]
+shape = SubResource( 3 )
+
+[node name="BlueH" type="Sprite" parent="."]
+editor/display_folded = true
+position = Vector2( 52, 2 )
+texture = ExtResource( 4 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="BlueH"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BlueH/StaticBody2D"]
+shape = SubResource( 4 )
+
+[node name="Red" type="Sprite" parent="."]
+editor/display_folded = true
+position = Vector2( 4, 4 )
+texture = ExtResource( 5 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Red"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Red/StaticBody2D"]
+shape = SubResource( 5 )
+
+[node name="RedH" type="Sprite" parent="."]
+editor/display_folded = true
+position = Vector2( 20, 2 )
+texture = ExtResource( 6 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="RedH"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RedH/StaticBody2D"]
+shape = SubResource( 6 )
